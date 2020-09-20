@@ -1,0 +1,187 @@
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+
+}
+
+h2{
+  font-family:'Merriweather', serif;
+  font-size: 2.50rem;
+}
+
+h3{
+  color: #11999E;
+}
+
+ p{
+   font-size: 1.25rem;
+   margin:0;
+   font-family: 'Montserrat', sans-serif;
+ }
+a {
+  color: white;
+  margin: 0 15px 0 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 125px
+
+}
+.topcontainer{
+  background-color: #00adb5;
+  margin-top: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middlecontainer{
+  background-color: #eaeaea;
+}
+
+.bottomcontainer{
+  background-color: #11999E;
+  height: 100px;
+  padding-top: 25px;
+  color: white;
+}
+
+.headertext{
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 2;
+}
+ .training{
+   text-decoration: underline;
+ }
+.cloud2{
+  position: absolute;
+  top: 250px;
+  left: 25%;
+
+}
+.cloud1{
+  position:absolute;
+  width: 200px;
+  top: 50px;
+  right: 25%;
+}
+
+.profile{
+  width: 50%;
+  margin: -4px auto 50px auto;
+}
+.profilePicture{
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 50px;
+}
+
+.skill-row{
+  width: 75%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+}
+.skillspics1{
+height: 150px;
+  margin: 5%;
+}
+.skillspics2{
+height: 75px;
+  margin: 5%;
+}
+.node{
+  align-items: center;
+}
+
+.pianoButton{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  box-shadow: 2px 2px;
+  background-color: #71c9ce;
+}
+.pianoButton h2{
+  margin-top: 25px;
+}
+
+.pressed{
+  background-color: #ff2e63;
+  opacity: 0.5;
+}
+
+.apiPic{
+  border-radius: 5%;
+}
+.apiPic:hover{
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+animation: shake 0.25s;
+
+/* When the animation is finished, start again */
+animation-iteration-count: infinite;
+}
+@keyframes shake {
+  /* 0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); } */
+  0% {-webkit-transform:rotate(2deg);}
+   50% {-webkit-transform:rotate(-2deg);}
+   100% {-webkit-transform:rotate(2deg);}
+}
+.embed{
+  border-radius: 5%;
+}
+
+.contactsubheader{
+  margin: 75px auto 0 auto;
+}
+.hireme{
+  margin: 50px auto 50px auto;
+}
+.contacttext{
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.copyright{
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.btn {
+background:linear-gradient(to bottom, #11999E 5%, #11999E 100%);
+background-color:#11999E;
+border-radius:15px;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family: 'Montserrat', sans-serif;
+font-size:17px;
+padding:11px 23px;
+text-decoration:none;
+margin: auto auto 50px;
+}
+
+.btn:hover {
+background:linear-gradient(to bottom, #8FCFD1 5%, #8FCFD1 100%);
+background-color:#8FCFD1;
+}
